@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica;
+    font-size: 13px;
+    background-color:#edeef0;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.container {
+    max-width: 1040px;
+    margin: auto;
+}
+header {
+    background-color:#2980b9;
+    height: 45px;
+    box-shadow: 0px 0px 4px #333;
+    position: relative;
+    z-index: 99;
+}
+header .container {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    height: 20px;
+}
+header a {
+    display: flex;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #FFF;
+    border: 1px solid #c9cacc;
+    padding: 20px;
+    margin-top: 50px;
+}
+form label {
+    display: block;
+}
+form input {
+    display: block;
+}
+form .input {
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color:#EEE;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+form .input:focus {
+    background-color:#DDD;
+}
+form .button {
+    border: 0;
+    padding: 10px 20px;
+    background-color:#2980b9;
+    color:#FFF;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #999;
+}
+form .button:hover {
+    background-color:#2980b9;
+}
+form a {
+    text-decoration: none;
+    color:#2980b9;
+}
+.title-login {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.flash {
+    padding: 10px 20px;
+    background-color:#e74c3c;
+    color:#FFF;
+    font-size: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px #999;
+    text-align: center;
+}
