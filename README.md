@@ -9,6 +9,4 @@ Em seguida importar a base de dados users.sql.
 O usuário vem em forma de objeto, para acessar as propriedades do mesmo basta usar a variável.
 
 Ex:
-$userInfo->name.
-$userInfo->email.
 $userInfo->birthdate.
